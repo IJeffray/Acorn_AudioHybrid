@@ -1,20 +1,22 @@
 # Acorn Audio Hybrid replacement (for A30x0 / A4000)
 
-May 2023
+August 2026
 
 
 ![3D View](Generated/AudioHybrid_3D_View.PNG)
 
-Implementation as per steve3000's schematic on StarDot
-https://stardot.org.uk/forums/download/file.php?id=92210&mode=view
+![3D View](Generated/AudioHybrid_3D_View2.PNG)
 
-Work in progress...
+An implementation of the Acorn 'Audio Hybrid' board for A3010/A3020/A4000,
+mostly designed around the detailed near equivalent section of the Acorn A5000 schematic.
+
+This is a work in progress - notionally complete, but not built or tested yet.
 
 ## Licence
 
 No warranty is provided, and this work is used at your own risk.  
 
-Licenced as CC BY-SA 3.0
+Licenced as CC BY-SA 4.0
 
-Copyright 2023 Ian Jeffray
+Copyright 2026 Ian Jeffray
 
