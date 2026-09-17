@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Acorn_AudioHybrid.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=PDF
 VariantName=STD
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Lexmark T652
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -36,7 +36,7 @@ OutputName1=Gerber Files
 OutputCategory1=Fabrication
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
@@ -48,7 +48,7 @@ OutputName2=NC Drill Files
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=2
@@ -60,7 +60,7 @@ OutputName3=Design Rules Check
 OutputCategory3=Validation
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=3
@@ -73,7 +73,7 @@ OutputName4=Bill of Materials
 OutputCategory4=Report
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=4
@@ -89,9 +89,22 @@ Configuration4_Name4=SortOrder
 Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration4_Name5=VisibleOrder
 Configuration4_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+OutputType5=Schematic Print
+OutputName5=Schematic Prints
+OutputCategory5=Documentation
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=1
+OutputEnabled5_OutputMedium3=0
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.68|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A3|PaperIndex=8
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=G:\AcornDev\Acorn_AudioHybrid\Acorn_AudioHybrid.SchDoc
 
 [PublishSettings]
-OutputFilePath2=C:\SMS_Ltd\Projects\Calcivis Calibration\Altium\Calcivis_Calibration_Board\Manufacturing Data\Calcivis_Calibration_Board_VariantName_Rev0.1\
+OutputFilePath2=G:\AcornDev\Acorn_AudioHybrid\Manufacturing Data\Acorn_AudioHybrid_VariantName_Rev1.0\
 ReleaseManaged2=0
 OutputBasePath2=Manufacturing Data\
 OutputPathMedia2==ProjectName+'_'+VariantName+'_Rev'+PCB_RevNo
@@ -104,12 +117,12 @@ OutputFileNameMulti2==ProjectName+'_'+OutputName+'_'+VariantName+'_Rev'+PCB_RevN
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=0
-PromptOverwrite2=1
+PromptOverwrite2=0
 PublishMethod2=1
 ZoomLevel2=50
 FitSCHPrintSizeToDoc2=0
 FitPCBPrintSizeToDoc2=0
-GenerateNetsInfo2=1
+GenerateNetsInfo2=0
 MarkPins2=1
 MarkNetLabels2=1
 MarkPortsId2=1
@@ -133,7 +146,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\SMS_Ltd\Projects\Calcivis Calibration\Altium\Calcivis_Calibration_Board\Manufacturing Data\Calcivis_Calibration_Board_VariantName_Rev0.1\
+RelativeOutputPath2=G:\AcornDev\Acorn_AudioHybrid\Manufacturing Data\Acorn_AudioHybrid_VariantName_Rev1.0\
 OpenOutputs2=0
 RelativeOutputPath3=G:\AcornDev\Acorn_AudioHybrid\Manufacturing Data\Acorn_AudioHybrid_VariantName_Rev1.0\
 OpenOutputs3=0
