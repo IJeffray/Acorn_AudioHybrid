@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Unfiltered
 
 [Preferences]
 PrefsVaultGUID=
@@ -144,56 +145,55 @@ UniqueId=d3398b75-6b8f-4eb4-913a-ecafd3e4c5cf
 Description=Unfiltered
 AllowFabrication=0
 ParameterCount=0
-VariationCount=21
-Variation1=Designator=Q2|UniqueId=\ETZUIJHO|Kind=1|AlternatePart=
-Variation2=Designator=R41|UniqueId=\GHUXLEAN|Kind=1|AlternatePart=
+VariationCount=20
+Variation1=Designator=Q2|UniqueId=\ETZUIJHO|Kind=0|AlternatePart=
+Variation2=Designator=R41|UniqueId=\GHUXLEAN|Kind=0|AlternatePart=
 Variation3=Designator=R39|UniqueId=\XVGNQFQQ|Kind=1|AlternatePart=
 Variation4=Designator=C29|UniqueId=\YRMAFBKF|Kind=1|AlternatePart=
-Variation5=Designator=R17|UniqueId=\EBHGETNV|Kind=0|AlternatePart=
-Variation6=Designator=Q3|UniqueId=\GXMQOJPB|Kind=1|AlternatePart=
-Variation7=Designator=R43|UniqueId=\VFXIIFBS|Kind=1|AlternatePart=
-Variation8=Designator=R42|UniqueId=\QOHWVYRE|Kind=1|AlternatePart=
-Variation9=Designator=C33|UniqueId=\EYBQLWCG|Kind=1|AlternatePart=
-Variation10=Designator=C44|UniqueId=\WSDUFKBY|Kind=1|AlternatePart=
-Variation11=Designator=C32|UniqueId=\DXEIXXYM|Kind=1|AlternatePart=
-Variation12=Designator=C30|UniqueId=\DJWWDJER|Kind=1|AlternatePart=
-Variation13=Designator=C39|UniqueId=\UGDTDXWN|Kind=1|AlternatePart=
-Variation14=Designator=R59|UniqueId=\CUJONSMR|Kind=1|AlternatePart=
-Variation15=Designator=R60|UniqueId=\NETPXKLJ|Kind=1|AlternatePart=
-Variation16=Designator=R61|UniqueId=\WGIJUERL|Kind=1|AlternatePart=
-Variation17=Designator=C34|UniqueId=\HIVOVWTJ|Kind=1|AlternatePart=
-Variation18=Designator=C40|UniqueId=\MHADYQJJ|Kind=1|AlternatePart=
-Variation19=Designator=R55|UniqueId=\SALKJBXO|Kind=1|AlternatePart=
-Variation20=Designator=R54|UniqueId=\LWAXPGHY|Kind=1|AlternatePart=
-Variation21=Designator=R52|UniqueId=\AAULDXPM|Kind=1|AlternatePart=
+Variation5=Designator=Q3|UniqueId=\GXMQOJPB|Kind=0|AlternatePart=
+Variation6=Designator=R43|UniqueId=\VFXIIFBS|Kind=0|AlternatePart=
+Variation7=Designator=R42|UniqueId=\QOHWVYRE|Kind=1|AlternatePart=
+Variation8=Designator=C33|UniqueId=\EYBQLWCG|Kind=1|AlternatePart=
+Variation9=Designator=C44|UniqueId=\WSDUFKBY|Kind=1|AlternatePart=
+Variation10=Designator=C32|UniqueId=\DXEIXXYM|Kind=1|AlternatePart=
+Variation11=Designator=C30|UniqueId=\DJWWDJER|Kind=1|AlternatePart=
+Variation12=Designator=C39|UniqueId=\UGDTDXWN|Kind=1|AlternatePart=
+Variation13=Designator=R59|UniqueId=\CUJONSMR|Kind=0|AlternatePart=
+Variation14=Designator=R60|UniqueId=\NETPXKLJ|Kind=0|AlternatePart=
+Variation15=Designator=R61|UniqueId=\WGIJUERL|Kind=0|AlternatePart=
+Variation16=Designator=C34|UniqueId=\HIVOVWTJ|Kind=1|AlternatePart=
+Variation17=Designator=C40|UniqueId=\MHADYQJJ|Kind=1|AlternatePart=
+Variation18=Designator=R55|UniqueId=\SALKJBXO|Kind=0|AlternatePart=
+Variation19=Designator=R54|UniqueId=\LWAXPGHY|Kind=0|AlternatePart=
+Variation20=Designator=R52|UniqueId=\AAULDXPM|Kind=0|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Sch_RevNo
+Name=BOM_RevNo
 Value=1.0
 
 [Parameter2]
-Name=Sch_releaseDate
-Value=October 2026
-
-[Parameter3]
-Name=Project_Title
-Value=Acorn Audio Hybrid
-
-[Parameter4]
-Name=ProjectName
-Value=Acorn Audio Hybrid
-
-[Parameter5]
-Name=PCB_RevNo
-Value=1.0
-
-[Parameter6]
 Name=DrawnBy
 Value=Codion Ltd
 
+[Parameter3]
+Name=PCB_RevNo
+Value=1.0
+
+[Parameter4]
+Name=Project_Title
+Value=Acorn Audio Hybrid
+
+[Parameter5]
+Name=ProjectName
+Value=Acorn Audio Hybrid
+
+[Parameter6]
+Name=Sch_releaseDate
+Value=October 2026
+
 [Parameter7]
-Name=BOM_RevNo
+Name=Sch_RevNo
 Value=1.0
 
 [Configuration1]
